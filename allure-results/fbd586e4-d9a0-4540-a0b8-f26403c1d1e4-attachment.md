@@ -1,0 +1,1686 @@
+# Test info
+
+- Name: Handling WebTable
+- Location: C:\Users\Admin\OneDrive\Desktop\Amazon\tests\WebTable.spec.js:4:5
+
+# Error details
+
+```
+Error: page.goto: Test timeout of 30000ms exceeded.
+Call log:
+  - navigating to "http://49.249.28.218:8081/AppServer/Online_Shopping_Application/", waiting until "load"
+
+    at C:\Users\Admin\OneDrive\Desktop\Amazon\tests\WebTable.spec.js:5:16
+```
+
+# Page snapshot
+
+```yaml
+- banner:
+  - list:
+    - listitem:
+      - link " My Account":
+        - /url: my-account.php
+    - listitem:
+      - link " Wishlist":
+        - /url: my-wishlist.php
+    - listitem:
+      - link " My Cart":
+        - /url: my-cart.php
+    - listitem:
+      - link " Login":
+        - /url: login.php
+    - listitem:
+      - link " Admin Login":
+        - /url: admin
+  - list:
+    - listitem:
+      - link "Track Order":
+        - /url: track-orders.php
+  - link "Shopping":
+    - /url: index.php
+    - heading "Shopping" [level=2]
+  - textbox "Search here..."
+  - button ""
+  - link "cart - Rs. 00.00  0":
+    - /url: "#"
+  - navigation:
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: index.php
+      - listitem:
+        - link "Books":
+          - /url: category.php?cid=3
+      - listitem:
+        - link "Electronics":
+          - /url: category.php?cid=4
+      - listitem:
+        - link "Furniture":
+          - /url: category.php?cid=5
+      - listitem:
+        - link "Fashion":
+          - /url: category.php?cid=6
+      - listitem:
+        - link "watch_1593341929":
+          - /url: category.php?cid=7
+      - listitem:
+        - link "watch_1676166316":
+          - /url: category.php?cid=8
+- text:  Categories
+- navigation:
+  - list:
+    - listitem:
+      - link " Books ":
+        - /url: category.php?cid=3
+      - link " Electronics ":
+        - /url: category.php?cid=4
+      - link " Furniture ":
+        - /url: category.php?cid=5
+      - link " Fashion ":
+        - /url: category.php?cid=6
+      - link " watch_1593341929 ":
+        - /url: category.php?cid=7
+      - link " watch_1676166316 ":
+        - /url: category.php?cid=8
+      - link " watch_-1210086453 ":
+        - /url: category.php?cid=9
+      - link " watch_ ":
+        - /url: category.php?cid=10
+      - link " watch_ ":
+        - /url: category.php?cid=11
+      - link " watch_ ":
+        - /url: category.php?cid=12
+      - link " watch_1593341929 ":
+        - /url: category.php?cid=13
+      - link " watch_-92202243 ":
+        - /url: category.php?cid=14
+      - link " watch_1266878197 ":
+        - /url: category.php?cid=15
+      - link " Lipstick ":
+        - /url: category.php?cid=16
+      - link " Book ":
+        - /url: category.php?cid=17
+      - link " HOMEDECOR ":
+        - /url: category.php?cid=18
+      - link " Spectacles ":
+        - /url: category.php?cid=19
+      - link " Loptop ":
+        - /url: category.php?cid=20
+      - link " Mobiles ":
+        - /url: category.php?cid=21
+      - link " Bottles ":
+        - /url: category.php?cid=22
+      - link " Mobiles ":
+        - /url: category.php?cid=23
+      - link " Mobiles ":
+        - /url: category.php?cid=24
+      - link " hello ":
+        - /url: category.php?cid=25
+      - link " hai ":
+        - /url: category.php?cid=26
+      - link " Mobiles ":
+        - /url: category.php?cid=27
+      - link " Mobiles ":
+        - /url: category.php?cid=28
+      - link " Mobiles ":
+        - /url: category.php?cid=29
+      - link " Mobiles ":
+        - /url: category.php?cid=30
+      - link " makeup products ":
+        - /url: category.php?cid=31
+      - link " Mobiles ":
+        - /url: category.php?cid=32
+      - link " Mobiles ":
+        - /url: category.php?cid=33
+      - link " home ":
+        - /url: category.php?cid=34
+      - link " Mobiles ":
+        - /url: category.php?cid=35
+      - link " Mobiles ":
+        - /url: category.php?cid=36
+      - link " Mobiles ":
+        - /url: category.php?cid=37
+      - link " Mobiles ":
+        - /url: category.php?cid=38
+      - link " Mobiles ":
+        - /url: category.php?cid=39
+      - link " Mobiles ":
+        - /url: category.php?cid=40
+      - link " Mobiles ":
+        - /url: category.php?cid=41
+      - link " Mobiles ":
+        - /url: category.php?cid=42
+      - link " Mobiles ":
+        - /url: category.php?cid=43
+      - link " Watches ":
+        - /url: category.php?cid=44
+      - link " Mobiles ":
+        - /url: category.php?cid=45
+      - link " Mobiles ":
+        - /url: category.php?cid=46
+      - link " Mobiles ":
+        - /url: category.php?cid=47
+      - link " Mobiles ":
+        - /url: category.php?cid=48
+      - link " Mobiles1397424367 ":
+        - /url: category.php?cid=49
+      - link " Mobiles2013 ":
+        - /url: category.php?cid=50
+      - link " Mobiles22 ":
+        - /url: category.php?cid=51
+      - link " Mobiles580 ":
+        - /url: category.php?cid=52
+      - link " Mobiles5982 ":
+        - /url: category.php?cid=53
+      - link " Mobiles2775 ":
+        - /url: category.php?cid=54
+      - link " Mobiles6634 ":
+        - /url: category.php?cid=55
+      - link " Mobiles7355 ":
+        - /url: category.php?cid=56
+      - link " Mobiles120 ":
+        - /url: category.php?cid=57
+      - link " Lap ":
+        - /url: category.php?cid=58
+      - link " Laptop ":
+        - /url: category.php?cid=59
+      - link " Lap ":
+        - /url: category.php?cid=60
+      - link " Mobiles9212 ":
+        - /url: category.php?cid=61
+      - link " Mobiles3570 ":
+        - /url: category.php?cid=62
+      - link " Mobiles4045 ":
+        - /url: category.php?cid=63
+      - link " Mobiles653 ":
+        - /url: category.php?cid=64
+      - link " Mobiles3430 ":
+        - /url: category.php?cid=65
+      - link " Macy ":
+        - /url: category.php?cid=66
+      - link " Mesys_Online_Store ":
+        - /url: category.php?cid=67
+      - link " abc12 ":
+        - /url: category.php?cid=68
+      - link " Gardening ":
+        - /url: category.php?cid=69
+      - link " Makeup products ":
+        - /url: category.php?cid=70
+      - link " watch_ ":
+        - /url: category.php?cid=71
+      - link " Trends ":
+        - /url: category.php?cid=72
+      - link " Trends ":
+        - /url: category.php?cid=74
+      - link " watch_ ":
+        - /url: category.php?cid=75
+      - link " Trends ":
+        - /url: category.php?cid=76
+      - link " Trends ":
+        - /url: category.php?cid=77
+      - link " watch_ ":
+        - /url: category.php?cid=78
+      - link " watch_ ":
+        - /url: category.php?cid=79
+      - link " Trends ":
+        - /url: category.php?cid=80
+      - link " watch_ ":
+        - /url: category.php?cid=81
+      - link " Trends ":
+        - /url: category.php?cid=82
+      - link " watch_ ":
+        - /url: category.php?cid=83
+      - link " Trends ":
+        - /url: category.php?cid=84
+      - link " Trends ":
+        - /url: category.php?cid=85
+      - link " Mobiles ":
+        - /url: category.php?cid=86
+      - link " Mobiles6159 ":
+        - /url: category.php?cid=87
+      - link " Trends ":
+        - /url: category.php?cid=88
+      - link " watch_ ":
+        - /url: category.php?cid=90
+      - link " Trends ":
+        - /url: category.php?cid=91
+      - link " Trends ":
+        - /url: category.php?cid=92
+      - link " Trends ":
+        - /url: category.php?cid=93
+      - link " Trends ":
+        - /url: category.php?cid=94
+      - link " Trends ":
+        - /url: category.php?cid=95
+      - link " Trends ":
+        - /url: category.php?cid=96
+      - link " Trends ":
+        - /url: category.php?cid=97
+      - link " Trends ":
+        - /url: category.php?cid=98
+      - link " Trends ":
+        - /url: category.php?cid=99
+      - link " Trends ":
+        - /url: category.php?cid=100
+      - link " Trends ":
+        - /url: category.php?cid=101
+      - link " Trends ":
+        - /url: category.php?cid=102
+      - link " Trends ":
+        - /url: category.php?cid=103
+      - link " Trends ":
+        - /url: category.php?cid=104
+      - link " Trends ":
+        - /url: category.php?cid=105
+      - link " Trends ":
+        - /url: category.php?cid=106
+      - link " Trends ":
+        - /url: category.php?cid=107
+      - link " Trends ":
+        - /url: category.php?cid=108
+      - link " Trends ":
+        - /url: category.php?cid=109
+      - link " Trends ":
+        - /url: category.php?cid=110
+      - link " Trends ":
+        - /url: category.php?cid=111
+      - link " Trends ":
+        - /url: category.php?cid=112
+      - link " Trends ":
+        - /url: category.php?cid=113
+      - link " hsgdv ":
+        - /url: category.php?cid=114
+      - link " watch_ ":
+        - /url: category.php?cid=115
+      - link " watch_ ":
+        - /url: category.php?cid=116
+      - link " laboratory ":
+        - /url: category.php?cid=117
+      - link " Books ":
+        - /url: category.php?cid=118
+      - link " Books ":
+        - /url: category.php?cid=119
+      - link " Books ":
+        - /url: category.php?cid=120
+      - link " Books ":
+        - /url: category.php?cid=121
+      - link " Books ":
+        - /url: category.php?cid=122
+      - link " teseetsfdkls ":
+        - /url: category.php?cid=123
+      - link " stationery ":
+        - /url: category.php?cid=124
+      - link " shopping ":
+        - /url: category.php?cid=125
+      - link " HOME ":
+        - /url: category.php?cid=126
+      - link " Books ":
+        - /url: category.php?cid=127
+      - link " watch_ ":
+        - /url: category.php?cid=128
+      - link " cloth ":
+        - /url: category.php?cid=129
+      - link " Books ":
+        - /url: category.php?cid=130
+      - link " watch_ ":
+        - /url: category.php?cid=131
+      - link " Books ":
+        - /url: category.php?cid=132
+      - link " watch_ ":
+        - /url: category.php?cid=133
+      - link " Books ":
+        - /url: category.php?cid=134
+      - link " Books ":
+        - /url: category.php?cid=135
+      - link " watch_ ":
+        - /url: category.php?cid=136
+      - link " Books ":
+        - /url: category.php?cid=137
+      - link " watch_ ":
+        - /url: category.php?cid=138
+      - link " Books ":
+        - /url: category.php?cid=139
+      - link " watch_ ":
+        - /url: category.php?cid=140
+      - link " Books ":
+        - /url: category.php?cid=141
+      - link " watch_ ":
+        - /url: category.php?cid=142
+      - link " Mobiles ":
+        - /url: category.php?cid=143
+      - link " Mobiles ":
+        - /url: category.php?cid=144
+      - link " Mobiles ":
+        - /url: category.php?cid=145
+      - link " Mobiles ":
+        - /url: category.php?cid=146
+      - link " watch_ ":
+        - /url: category.php?cid=147
+      - link " Books ":
+        - /url: category.php?cid=148
+      - link " Books ":
+        - /url: category.php?cid=149
+      - link " watch_ ":
+        - /url: category.php?cid=150
+      - link " watch_ ":
+        - /url: category.php?cid=151
+      - link " Mobiles ":
+        - /url: category.php?cid=152
+      - link " Mobiles ":
+        - /url: category.php?cid=153
+      - link " Books ":
+        - /url: category.php?cid=154
+      - link " watch_ ":
+        - /url: category.php?cid=155
+      - link " Mobiles ":
+        - /url: category.php?cid=156
+      - link " Mobiles ":
+        - /url: category.php?cid=157
+      - link " Mobiles ":
+        - /url: category.php?cid=158
+      - link " Mobiles ":
+        - /url: category.php?cid=159
+      - link " Create Category ":
+        - /url: category.php?cid=160
+      - link " Bottle ":
+        - /url: category.php?cid=161
+      - link " Mobiles ":
+        - /url: category.php?cid=162
+      - link " Mobiles9324 ":
+        - /url: category.php?cid=163
+      - link " Mobiles1933 ":
+        - /url: category.php?cid=164
+      - link " Mobiles1180 ":
+        - /url: category.php?cid=165
+      - link " Mobiles3920 ":
+        - /url: category.php?cid=166
+      - link " Mobiles1582 ":
+        - /url: category.php?cid=167
+      - link " Mobiles4745 ":
+        - /url: category.php?cid=168
+      - link " Mobiles466 ":
+        - /url: category.php?cid=169
+      - link " Mobiles3770 ":
+        - /url: category.php?cid=170
+      - link " Mobiles652 ":
+        - /url: category.php?cid=171
+      - link " Mobiles1737 ":
+        - /url: category.php?cid=172
+      - link " Mobiles2935 ":
+        - /url: category.php?cid=173
+      - link " Mobiles181 ":
+        - /url: category.php?cid=174
+      - link " Mobiles123 ":
+        - /url: category.php?cid=175
+      - link " Mobiles4597 ":
+        - /url: category.php?cid=176
+      - link " Mobiles186 ":
+        - /url: category.php?cid=177
+      - link " cosmeticsproducts ":
+        - /url: category.php?cid=178
+      - link " cosmetics ":
+        - /url: category.php?cid=179
+      - link " Mobiles ":
+        - /url: category.php?cid=180
+      - link " Mobiles4176 ":
+        - /url: category.php?cid=181
+      - link " Mobiles ":
+        - /url: category.php?cid=182
+      - link " Mobiles ":
+        - /url: category.php?cid=183
+      - link " Mobiles3449 ":
+        - /url: category.php?cid=184
+      - link " Mobiles ":
+        - /url: category.php?cid=185
+      - link " Mobiles163 ":
+        - /url: category.php?cid=186
+      - link " Mobiles ":
+        - /url: category.php?cid=187
+      - link " Mobiles3010 ":
+        - /url: category.php?cid=188
+      - link " Mobiles ":
+        - /url: category.php?cid=189
+      - link " Mobiles778 ":
+        - /url: category.php?cid=190
+      - link " Mobiles ":
+        - /url: category.php?cid=191
+      - link " Mobiles ":
+        - /url: category.php?cid=192
+      - link " Mobiles2163 ":
+        - /url: category.php?cid=193
+      - link " Mobiles ":
+        - /url: category.php?cid=194
+      - link " Mobiles2732 ":
+        - /url: category.php?cid=195
+      - link " Mobiles3614 ":
+        - /url: category.php?cid=196
+      - link " books ":
+        - /url: category.php?cid=197
+      - link " boards ":
+        - /url: category.php?cid=198
+      - link " boards ":
+        - /url: category.php?cid=199
+      - link " boards ":
+        - /url: category.php?cid=200
+      - link " boards ":
+        - /url: category.php?cid=201
+      - link " boards ":
+        - /url: category.php?cid=202
+      - link " boards ":
+        - /url: category.php?cid=203
+      - link " boards ":
+        - /url: category.php?cid=204
+      - link " boards ":
+        - /url: category.php?cid=205
+      - link " boards ":
+        - /url: category.php?cid=206
+      - link " boards ":
+        - /url: category.php?cid=207
+      - link " boards ":
+        - /url: category.php?cid=208
+      - link " boards ":
+        - /url: category.php?cid=209
+      - link " boards ":
+        - /url: category.php?cid=210
+      - link " boards ":
+        - /url: category.php?cid=211
+      - link " boards ":
+        - /url: category.php?cid=212
+      - link " boards ":
+        - /url: category.php?cid=213
+      - link " boards ":
+        - /url: category.php?cid=214
+      - link " boards ":
+        - /url: category.php?cid=215
+      - link " boards ":
+        - /url: category.php?cid=216
+      - link " boards ":
+        - /url: category.php?cid=217
+      - link " boards ":
+        - /url: category.php?cid=218
+      - link " boards ":
+        - /url: category.php?cid=219
+      - link " boards ":
+        - /url: category.php?cid=220
+      - link " boards ":
+        - /url: category.php?cid=221
+      - link " boards ":
+        - /url: category.php?cid=222
+      - link " boards ":
+        - /url: category.php?cid=223
+      - link " boards ":
+        - /url: category.php?cid=224
+      - link " boards ":
+        - /url: category.php?cid=225
+      - link " boards ":
+        - /url: category.php?cid=226
+      - link " boards ":
+        - /url: category.php?cid=227
+      - link " boards ":
+        - /url: category.php?cid=228
+      - link " Stationary ":
+        - /url: category.php?cid=229
+      - link " Laptop ":
+        - /url: category.php?cid=230
+      - link " Bottle ":
+        - /url: category.php?cid=231
+      - link " Bottle ":
+        - /url: category.php?cid=232
+      - link " boards ":
+        - /url: category.php?cid=233
+      - link " Bottle ":
+        - /url: category.php?cid=234
+      - link " Bottle ":
+        - /url: category.php?cid=235
+      - link " Bottle ":
+        - /url: category.php?cid=236
+      - link " Bottle ":
+        - /url: category.php?cid=237
+      - link " Bottle ":
+        - /url: category.php?cid=238
+      - link " Bottle ":
+        - /url: category.php?cid=239
+      - link " Bottle ":
+        - /url: category.php?cid=240
+      - link " Bottle ":
+        - /url: category.php?cid=241
+      - link " FURNITURE ":
+        - /url: category.php?cid=242
+      - link " FURNITURE ":
+        - /url: category.php?cid=243
+      - link " FURNITURE ":
+        - /url: category.php?cid=244
+      - link " Bottle ":
+        - /url: category.php?cid=245
+      - link " boards ":
+        - /url: category.php?cid=246
+      - link " FURNITURE ":
+        - /url: category.php?cid=247
+      - link " FURNITURE ":
+        - /url: category.php?cid=248
+      - link " Bottle ":
+        - /url: category.php?cid=249
+      - link " FURNITURE ":
+        - /url: category.php?cid=250
+      - link " Bottle ":
+        - /url: category.php?cid=251
+      - link " boards ":
+        - /url: category.php?cid=252
+      - link " boards ":
+        - /url: category.php?cid=253
+      - link " boards ":
+        - /url: category.php?cid=254
+      - link " boards ":
+        - /url: category.php?cid=255
+      - link " boards ":
+        - /url: category.php?cid=256
+      - link " FURNITURE ":
+        - /url: category.php?cid=257
+      - link " Bottle ":
+        - /url: category.php?cid=258
+      - link " boards ":
+        - /url: category.php?cid=259
+      - link " boards ":
+        - /url: category.php?cid=260
+      - link " boards ":
+        - /url: category.php?cid=261
+      - link " Bottle ":
+        - /url: category.php?cid=262
+      - link " Bottle ":
+        - /url: category.php?cid=263
+      - link " FURNITURE ":
+        - /url: category.php?cid=264
+      - link " Bottle ":
+        - /url: category.php?cid=265
+      - link " Bottle ":
+        - /url: category.php?cid=266
+      - link " Bottle ":
+        - /url: category.php?cid=267
+      - link " Bottle ":
+        - /url: category.php?cid=268
+      - link " Bottle ":
+        - /url: category.php?cid=269
+      - link " Bottle ":
+        - /url: category.php?cid=270
+      - link " Bottle ":
+        - /url: category.php?cid=271
+      - link " Bottle ":
+        - /url: category.php?cid=272
+      - link " boards ":
+        - /url: category.php?cid=273
+      - link " Bottle ":
+        - /url: category.php?cid=274
+      - link " Bottle ":
+        - /url: category.php?cid=275
+      - link " Bottle ":
+        - /url: category.php?cid=276
+      - link " Bottle ":
+        - /url: category.php?cid=277
+      - link " Bottle ":
+        - /url: category.php?cid=278
+      - link " Bottle ":
+        - /url: category.php?cid=279
+      - link " Bottle ":
+        - /url: category.php?cid=280
+      - link " Bottle ":
+        - /url: category.php?cid=281
+      - link " Bottle ":
+        - /url: category.php?cid=282
+      - link " Bottle ":
+        - /url: category.php?cid=283
+      - link " Bottle ":
+        - /url: category.php?cid=284
+      - link " Bottle ":
+        - /url: category.php?cid=285
+      - link " Bottle ":
+        - /url: category.php?cid=286
+      - link " Bottle ":
+        - /url: category.php?cid=287
+      - link " Mobiles ":
+        - /url: category.php?cid=288
+      - link " Mobiles4897 ":
+        - /url: category.php?cid=289
+      - link " Bottle ":
+        - /url: category.php?cid=290
+      - link " Bottle ":
+        - /url: category.php?cid=291
+      - link " Bottle ":
+        - /url: category.php?cid=292
+      - link " Bottle ":
+        - /url: category.php?cid=293
+      - link " Mobiles ":
+        - /url: category.php?cid=294
+      - link " Mobiles ":
+        - /url: category.php?cid=295
+      - link " Mobiles1616 ":
+        - /url: category.php?cid=296
+      - link " go fast ":
+        - /url: category.php?cid=297
+      - link " go own way ":
+        - /url: category.php?cid=298
+      - link " gofast ":
+        - /url: category.php?cid=299
+      - link " jacket ":
+        - /url: category.php?cid=300
+      - link " jacket ":
+        - /url: category.php?cid=301
+      - link " jacket ":
+        - /url: category.php?cid=302
+      - link " jacket ":
+        - /url: category.php?cid=303
+      - link " dsdsd ":
+        - /url: category.php?cid=304
+      - link " jacket ":
+        - /url: category.php?cid=305
+      - link " jacket ":
+        - /url: category.php?cid=306
+      - link " jacket ":
+        - /url: category.php?cid=307
+      - link " jacket ":
+        - /url: category.php?cid=308
+      - link " jacket ":
+        - /url: category.php?cid=309
+      - link " fashion ":
+        - /url: category.php?cid=310
+      - link " jacket ":
+        - /url: category.php?cid=311
+      - link " jacket ":
+        - /url: category.php?cid=312
+      - link " jacket ":
+        - /url: category.php?cid=313
+      - link " jacket ":
+        - /url: category.php?cid=314
+      - link " jacket ":
+        - /url: category.php?cid=315
+      - link " Bottle ":
+        - /url: category.php?cid=316
+      - link " boards ":
+        - /url: category.php?cid=317
+      - link " boards ":
+        - /url: category.php?cid=318
+      - link " boards ":
+        - /url: category.php?cid=319
+      - link " boards ":
+        - /url: category.php?cid=320
+      - link " boards ":
+        - /url: category.php?cid=321
+      - link " boards ":
+        - /url: category.php?cid=322
+      - link " boards ":
+        - /url: category.php?cid=323
+      - link " boards ":
+        - /url: category.php?cid=324
+      - link " movies ":
+        - /url: category.php?cid=325
+      - link " FURNITURE ":
+        - /url: category.php?cid=326
+      - link " FURNITURE ":
+        - /url: category.php?cid=327
+      - link " boards ":
+        - /url: category.php?cid=328
+      - link " FURNITURE ":
+        - /url: category.php?cid=329
+      - link " FURNITURE ":
+        - /url: category.php?cid=330
+      - link " FURNITURE ":
+        - /url: category.php?cid=331
+      - link " boards ":
+        - /url: category.php?cid=332
+      - link " boards ":
+        - /url: category.php?cid=333
+      - link " boards ":
+        - /url: category.php?cid=334
+      - link " FURNITURE ":
+        - /url: category.php?cid=335
+      - link " FURNITURE ":
+        - /url: category.php?cid=336
+      - link " boards ":
+        - /url: category.php?cid=337
+      - link " FURNITURE ":
+        - /url: category.php?cid=338
+      - link " FURNITURE ":
+        - /url: category.php?cid=339
+      - link " boards ":
+        - /url: category.php?cid=340
+      - link " boards ":
+        - /url: category.php?cid=341
+      - link " boards ":
+        - /url: category.php?cid=342
+      - link " mobiles ":
+        - /url: category.php?cid=343
+      - link " FURNITURE ":
+        - /url: category.php?cid=344
+      - link " Speakers ":
+        - /url: category.php?cid=345
+      - link " FURNITURE ":
+        - /url: category.php?cid=346
+      - link " FURNITURE ":
+        - /url: category.php?cid=347
+      - link " FURNITURE ":
+        - /url: category.php?cid=348
+      - link " FURNITURE ":
+        - /url: category.php?cid=349
+      - link " FURNITURE ":
+        - /url: category.php?cid=350
+      - link " Mobiles ":
+        - /url: category.php?cid=351
+      - link " Mobiles553 ":
+        - /url: category.php?cid=352
+      - link " Mobiles ":
+        - /url: category.php?cid=353
+      - link " Mobiles3304 ":
+        - /url: category.php?cid=354
+      - link " Mobiles ":
+        - /url: category.php?cid=355
+      - link " Mobiles3787 ":
+        - /url: category.php?cid=356
+      - link " Mobiles ":
+        - /url: category.php?cid=357
+      - link " Mobiles3478 ":
+        - /url: category.php?cid=358
+      - link " Mobiles ":
+        - /url: category.php?cid=359
+      - link " Mobiles4137 ":
+        - /url: category.php?cid=360
+      - link " Mobiles4756 ":
+        - /url: category.php?cid=361
+      - link " Mobiles ":
+        - /url: category.php?cid=362
+      - link " Mobiles1870 ":
+        - /url: category.php?cid=363
+      - link " Mobiles701 ":
+        - /url: category.php?cid=364
+      - link " Mobiles ":
+        - /url: category.php?cid=365
+      - link " Mobiles2746 ":
+        - /url: category.php?cid=366
+      - link " Mobiles ":
+        - /url: category.php?cid=367
+      - link " Mobiles2564 ":
+        - /url: category.php?cid=368
+      - link " Mobiles875 ":
+        - /url: category.php?cid=369
+      - link " Mobiles ":
+        - /url: category.php?cid=370
+      - link " Mobiles1709 ":
+        - /url: category.php?cid=371
+      - link " Mobiles106 ":
+        - /url: category.php?cid=372
+      - link " Mobiles ":
+        - /url: category.php?cid=373
+      - link " Mobiles609 ":
+        - /url: category.php?cid=374
+      - link " Mobiles ":
+        - /url: category.php?cid=375
+      - link " Mobiles ":
+        - /url: category.php?cid=376
+      - link " Mobiles4838 ":
+        - /url: category.php?cid=377
+      - link " Mobiles1901 ":
+        - /url: category.php?cid=378
+      - link " Mobiles ":
+        - /url: category.php?cid=379
+      - link " Mobiles1338 ":
+        - /url: category.php?cid=380
+      - link " Mobiles3495 ":
+        - /url: category.php?cid=381
+      - link " Mobiles ":
+        - /url: category.php?cid=382
+      - link " Mobiles23 ":
+        - /url: category.php?cid=383
+      - link " Mobiles808 ":
+        - /url: category.php?cid=384
+      - link " Mobiles ":
+        - /url: category.php?cid=385
+      - link " Mobiles2444 ":
+        - /url: category.php?cid=386
+      - link " Mobiles978 ":
+        - /url: category.php?cid=387
+      - link " Mobiles2252 ":
+        - /url: category.php?cid=388
+      - link " Mobiles ":
+        - /url: category.php?cid=389
+      - link " Mobiles4429 ":
+        - /url: category.php?cid=390
+      - link " Mobiles97 ":
+        - /url: category.php?cid=391
+      - link " Mobiles ":
+        - /url: category.php?cid=392
+      - link " Mobiles4124 ":
+        - /url: category.php?cid=393
+      - link " Mobiles4747 ":
+        - /url: category.php?cid=394
+      - link " Mobiles ":
+        - /url: category.php?cid=395
+      - link " Mobiles1220 ":
+        - /url: category.php?cid=396
+      - link " Mobiles4486 ":
+        - /url: category.php?cid=397
+      - link " Mobiles ":
+        - /url: category.php?cid=398
+      - link " Mobiles3541 ":
+        - /url: category.php?cid=399
+      - link " Mobiles2113 ":
+        - /url: category.php?cid=400
+      - link " Mobiles ":
+        - /url: category.php?cid=401
+      - link " Mobiles161 ":
+        - /url: category.php?cid=402
+      - link " Mobiles4423 ":
+        - /url: category.php?cid=403
+      - link " Mobiles ":
+        - /url: category.php?cid=404
+      - link " Mobiles4963 ":
+        - /url: category.php?cid=405
+      - link " Mobiles4269 ":
+        - /url: category.php?cid=406
+      - link " Mobiles ":
+        - /url: category.php?cid=407
+      - link " Mobiles2426 ":
+        - /url: category.php?cid=408
+      - link " Mobiles4362 ":
+        - /url: category.php?cid=409
+      - link " Mobiles ":
+        - /url: category.php?cid=410
+      - link " Mobiles2418 ":
+        - /url: category.php?cid=411
+      - link " Mobiles1545 ":
+        - /url: category.php?cid=412
+      - link " Mobiles ":
+        - /url: category.php?cid=413
+      - link " Mobiles2283 ":
+        - /url: category.php?cid=414
+      - link " Mobiles2275 ":
+        - /url: category.php?cid=415
+      - link " Mobiles ":
+        - /url: category.php?cid=416
+      - link " Mobiles621 ":
+        - /url: category.php?cid=417
+      - link " Mobiles4359 ":
+        - /url: category.php?cid=418
+      - link " Mobiles ":
+        - /url: category.php?cid=419
+      - link " Mobiles4392 ":
+        - /url: category.php?cid=420
+      - link " Mobiles1225 ":
+        - /url: category.php?cid=421
+      - link " Mobiles ":
+        - /url: category.php?cid=422
+      - link " Mobiles1807 ":
+        - /url: category.php?cid=423
+      - link " Mobiles2254 ":
+        - /url: category.php?cid=424
+      - link " Mobiles ":
+        - /url: category.php?cid=425
+      - link " Mobiles4336 ":
+        - /url: category.php?cid=426
+      - link " Mobiles4934 ":
+        - /url: category.php?cid=427
+      - link " Mobiles ":
+        - /url: category.php?cid=428
+      - link " Mobiles729 ":
+        - /url: category.php?cid=429
+      - link " Mobiles1832 ":
+        - /url: category.php?cid=430
+      - link " Mobiles ":
+        - /url: category.php?cid=431
+      - link " Mobiles4896 ":
+        - /url: category.php?cid=432
+      - link " Mobiles3629 ":
+        - /url: category.php?cid=433
+      - link " Mobiles ":
+        - /url: category.php?cid=434
+      - link " Mobiles3060 ":
+        - /url: category.php?cid=435
+      - link " Mobiles1219 ":
+        - /url: category.php?cid=436
+      - link " Mobiles ":
+        - /url: category.php?cid=437
+      - link " Mobiles1927 ":
+        - /url: category.php?cid=438
+      - link " Mobiles ":
+        - /url: category.php?cid=439
+      - link " Mobiles3131 ":
+        - /url: category.php?cid=440
+      - link " Mobiles442 ":
+        - /url: category.php?cid=441
+      - link " Mobiles ":
+        - /url: category.php?cid=442
+      - link " Mobiles1369 ":
+        - /url: category.php?cid=443
+      - link " Mobiles1610 ":
+        - /url: category.php?cid=444
+      - link " Mobiles ":
+        - /url: category.php?cid=445
+      - link " Mobiles3263 ":
+        - /url: category.php?cid=446
+      - link " Mobiles3420 ":
+        - /url: category.php?cid=447
+      - link " Mobiles ":
+        - /url: category.php?cid=448
+      - link " Mobiles3753 ":
+        - /url: category.php?cid=449
+      - link " Mobiles185 ":
+        - /url: category.php?cid=450
+      - link " Mobiles ":
+        - /url: category.php?cid=451
+      - link " Mobiles4213 ":
+        - /url: category.php?cid=452
+      - link " Mobiles ":
+        - /url: category.php?cid=453
+      - link " Mobiles3294 ":
+        - /url: category.php?cid=454
+      - link " Mobiles ":
+        - /url: category.php?cid=455
+      - link " Mobiles4088 ":
+        - /url: category.php?cid=456
+      - link " Mobiles3274 ":
+        - /url: category.php?cid=457
+      - link " red ":
+        - /url: category.php?cid=458
+      - link " Mobiles ":
+        - /url: category.php?cid=459
+      - link " Mobiles2706 ":
+        - /url: category.php?cid=460
+      - link " Mobiles2705 ":
+        - /url: category.php?cid=461
+      - link " Mobiles ":
+        - /url: category.php?cid=462
+      - link " Mobiles2854 ":
+        - /url: category.php?cid=463
+      - link " Mobiles ":
+        - /url: category.php?cid=464
+      - link " Mobiles1582 ":
+        - /url: category.php?cid=465
+      - link " Mobiles ":
+        - /url: category.php?cid=466
+      - link " Mobiles2403 ":
+        - /url: category.php?cid=467
+      - link " Mobiles ":
+        - /url: category.php?cid=468
+      - link " Mobiles2526 ":
+        - /url: category.php?cid=469
+      - link " Mobiles ":
+        - /url: category.php?cid=470
+      - link " Mobiles3288 ":
+        - /url: category.php?cid=471
+      - link " Mobiles ":
+        - /url: category.php?cid=472
+      - link " Mobiles4895 ":
+        - /url: category.php?cid=473
+      - link " Mobiles ":
+        - /url: category.php?cid=474
+      - link " Mobiles2899 ":
+        - /url: category.php?cid=475
+      - link " Mobiles4007 ":
+        - /url: category.php?cid=476
+      - link " red ":
+        - /url: category.php?cid=477
+      - link " Mobiles ":
+        - /url: category.php?cid=478
+      - link " Mobiles4311 ":
+        - /url: category.php?cid=479
+      - link " Mobiles ":
+        - /url: category.php?cid=480
+      - link " Mobiles3627 ":
+        - /url: category.php?cid=481
+      - link " Mobiles ":
+        - /url: category.php?cid=482
+      - link " Mobiles2984 ":
+        - /url: category.php?cid=483
+      - link " Mobiles3646 ":
+        - /url: category.php?cid=484
+      - link " Kitchenjkkjjlppoijhjkkkjjjklkjkllklkkkajksjkkjslksjkllskksl ":
+        - /url: category.php?cid=485
+      - link " Mobiles ":
+        - /url: category.php?cid=486
+      - link " Mobiles2268 ":
+        - /url: category.php?cid=487
+      - link " Mobiles2985 ":
+        - /url: category.php?cid=488
+      - link " Mobiles ":
+        - /url: category.php?cid=489
+      - link " Mobiles3791 ":
+        - /url: category.php?cid=490
+      - link " Mobiles1388 ":
+        - /url: category.php?cid=491
+      - link " Mobiles ":
+        - /url: category.php?cid=492
+      - link " Mobiles2678 ":
+        - /url: category.php?cid=493
+      - link " Mobiles1972 ":
+        - /url: category.php?cid=494
+      - link " Mobiles ":
+        - /url: category.php?cid=495
+      - link " Mobiles3479 ":
+        - /url: category.php?cid=496
+      - link " Mobiles425 ":
+        - /url: category.php?cid=497
+      - link " Mobiles ":
+        - /url: category.php?cid=498
+      - link " Mobiles1641 ":
+        - /url: category.php?cid=499
+      - link " Mobiles221 ":
+        - /url: category.php?cid=500
+      - link " Mobiles ":
+        - /url: category.php?cid=501
+      - link " Mobiles929 ":
+        - /url: category.php?cid=502
+      - link " Mobiles3433 ":
+        - /url: category.php?cid=503
+      - link " Mobiles ":
+        - /url: category.php?cid=504
+      - link " Mobiles1531 ":
+        - /url: category.php?cid=505
+      - link " Mobiles4506 ":
+        - /url: category.php?cid=506
+      - link " Mobiles ":
+        - /url: category.php?cid=507
+      - link " Mobiles4095 ":
+        - /url: category.php?cid=508
+      - link " Mobiles3219 ":
+        - /url: category.php?cid=509
+      - link " Mobiles ":
+        - /url: category.php?cid=510
+      - link " Mobiles4413 ":
+        - /url: category.php?cid=511
+      - link " Mobiles ":
+        - /url: category.php?cid=512
+      - link " Mobiles2498 ":
+        - /url: category.php?cid=513
+      - link " Mobiles3391 ":
+        - /url: category.php?cid=514
+      - link " hhhhh ":
+        - /url: category.php?cid=515
+      - link " Digitized Books ":
+        - /url: category.php?cid=516
+      - link " Digitized Books ":
+        - /url: category.php?cid=517
+      - link " Digitized Books ":
+        - /url: category.php?cid=518
+      - link " Digitized Books ":
+        - /url: category.php?cid=519
+      - link " TTS ":
+        - /url: category.php?cid=520
+      - link " TTS ":
+        - /url: category.php?cid=521
+      - link " Health ":
+        - /url: category.php?cid=522
+      - link " Health ":
+        - /url: category.php?cid=523
+      - link " Health ":
+        - /url: category.php?cid=524
+      - link " Health ":
+        - /url: category.php?cid=525
+      - link " Health ":
+        - /url: category.php?cid=526
+      - link " Health ":
+        - /url: category.php?cid=527
+      - link " Health ":
+        - /url: category.php?cid=528
+      - link " Health ":
+        - /url: category.php?cid=529
+      - link " Health ":
+        - /url: category.php?cid=530
+      - link " Health ":
+        - /url: category.php?cid=531
+      - link " Health ":
+        - /url: category.php?cid=532
+      - link " Health ":
+        - /url: category.php?cid=533
+      - link " Health ":
+        - /url: category.php?cid=534
+      - link " Health ":
+        - /url: category.php?cid=535
+      - link " Health ":
+        - /url: category.php?cid=536
+      - link " Health ":
+        - /url: category.php?cid=537
+      - link " Health ":
+        - /url: category.php?cid=538
+      - link " Health ":
+        - /url: category.php?cid=539
+      - link " Health ":
+        - /url: category.php?cid=540
+      - link " Health ":
+        - /url: category.php?cid=541
+      - link " Health ":
+        - /url: category.php?cid=542
+      - link " Health ":
+        - /url: category.php?cid=543
+      - link " Health ":
+        - /url: category.php?cid=544
+      - link " Health ":
+        - /url: category.php?cid=545
+      - link " Health ":
+        - /url: category.php?cid=546
+      - link " Health ":
+        - /url: category.php?cid=547
+      - link " Health ":
+        - /url: category.php?cid=548
+      - link " Health ":
+        - /url: category.php?cid=549
+      - link " Health ":
+        - /url: category.php?cid=550
+      - link " Health ":
+        - /url: category.php?cid=551
+      - link " Health ":
+        - /url: category.php?cid=552
+      - link " Health ":
+        - /url: category.php?cid=553
+      - link " Health ":
+        - /url: category.php?cid=554
+      - link " Health ":
+        - /url: category.php?cid=555
+      - link " mobiles ":
+        - /url: category.php?cid=556
+      - link " TESTQA ":
+        - /url: category.php?cid=557
+      - link " Health ":
+        - /url: category.php?cid=558
+      - link " Health ":
+        - /url: category.php?cid=559
+      - link " Health ":
+        - /url: category.php?cid=560
+      - link " Health ":
+        - /url: category.php?cid=561
+      - link " Health ":
+        - /url: category.php?cid=562
+      - link " Health ":
+        - /url: category.php?cid=563
+      - link " Health ":
+        - /url: category.php?cid=564
+      - link " Health ":
+        - /url: category.php?cid=565
+      - link " Health ":
+        - /url: category.php?cid=566
+      - link " TESTQACATEGORY ":
+        - /url: category.php?cid=567
+      - link " dfgh ":
+        - /url: category.php?cid=568
+      - link " Books ":
+        - /url: category.php?cid=569
+      - link " Books ":
+        - /url: category.php?cid=570
+      - link " Books ":
+        - /url: category.php?cid=571
+      - link " Books ":
+        - /url: category.php?cid=572
+      - link " Books ":
+        - /url: category.php?cid=573
+      - link " Books ":
+        - /url: category.php?cid=574
+      - link " Books ":
+        - /url: category.php?cid=575
+      - link " Health ":
+        - /url: category.php?cid=576
+      - link " Health ":
+        - /url: category.php?cid=577
+      - link " Health ":
+        - /url: category.php?cid=578
+      - link " Health ":
+        - /url: category.php?cid=579
+      - link " Health ":
+        - /url: category.php?cid=580
+      - link " Health ":
+        - /url: category.php?cid=581
+      - link " Health ":
+        - /url: category.php?cid=582
+      - link " Health ":
+        - /url: category.php?cid=583
+      - link " Health ":
+        - /url: category.php?cid=584
+      - link " Health ":
+        - /url: category.php?cid=585
+      - link " Health ":
+        - /url: category.php?cid=586
+      - link " Health ":
+        - /url: category.php?cid=587
+      - link " Health ":
+        - /url: category.php?cid=588
+      - link " Health ":
+        - /url: category.php?cid=589
+      - link " Tata_Motors ":
+        - /url: category.php?cid=590
+      - link " Shoes ":
+        - /url: category.php?cid=591
+      - link " Branded Watch ":
+        - /url: category.php?cid=592
+      - link " Jewellery ":
+        - /url: category.php?cid=593
+      - link " books ":
+        - /url: category.php?cid=594
+      - link " books ":
+        - /url: category.php?cid=595
+      - link " book ":
+        - /url: category.php?cid=596
+      - link " Watches ":
+        - /url: category.php?cid=597
+      - link " Watches ":
+        - /url: category.php?cid=598
+      - link " Books ":
+        - /url: category.php?cid=599
+      - link " nk ":
+        - /url: category.php?cid=600
+      - link " fggfnfd ":
+        - /url: category.php?cid=601
+      - link " nk ":
+        - /url: category.php?cid=602
+      - link " fssgb ":
+        - /url: category.php?cid=603
+      - link " keerthi ":
+        - /url: category.php?cid=604
+      - link " keerthi ":
+        - /url: category.php?cid=605
+      - link " keerthi ":
+        - /url: category.php?cid=606
+      - link " keerthi ":
+        - /url: category.php?cid=607
+      - link " keerthi ":
+        - /url: category.php?cid=608
+      - link " keerthi ":
+        - /url: category.php?cid=609
+      - link " ghj ":
+        - /url: category.php?cid=610
+      - link " qwerty ":
+        - /url: category.php?cid=611
+      - link " qwerty ":
+        - /url: category.php?cid=612
+      - link " qwerty ":
+        - /url: category.php?cid=613
+      - link " qwerty ":
+        - /url: category.php?cid=614
+      - link " qwerty ":
+        - /url: category.php?cid=615
+      - link " fashion ":
+        - /url: category.php?cid=616
+      - link " qwerty ":
+        - /url: category.php?cid=617
+      - link " qwerty ":
+        - /url: category.php?cid=618
+      - link " qwerty_3930 ":
+        - /url: category.php?cid=619
+      - link " asdfg ":
+        - /url: category.php?cid=620
+      - link " Book2 ":
+        - /url: category.php?cid=621
+      - link " qwerty_1883 ":
+        - /url: category.php?cid=622
+      - link " Books ":
+        - /url: category.php?cid=623
+      - link " Books ":
+        - /url: category.php?cid=624
+      - link " Books ":
+        - /url: category.php?cid=625
+      - link " qwerty_1886 ":
+        - /url: category.php?cid=626
+      - link " qwerty_4816 ":
+        - /url: category.php?cid=627
+      - link " qerty_4245 ":
+        - /url: category.php?cid=628
+      - link " qerty_2726 ":
+        - /url: category.php?cid=629
+      - link " qerty_1414 ":
+        - /url: category.php?cid=630
+      - link " qerty_1960 ":
+        - /url: category.php?cid=631
+      - link " qwerty_4011 ":
+        - /url: category.php?cid=632
+      - link " qwerty_2389 ":
+        - /url: category.php?cid=633
+      - link " qwerty_2057 ":
+        - /url: category.php?cid=634
+      - link " ELECTRONICS ":
+        - /url: category.php?cid=635
+      - link " HomeAppliance ":
+        - /url: category.php?cid=636
+      - link " FashionJewellery ":
+        - /url: category.php?cid=637
+      - link " FashionJewellery ":
+        - /url: category.php?cid=638
+      - link " qwerty_864 ":
+        - /url: category.php?cid=639
+      - link " qwerty_4597 ":
+        - /url: category.php?cid=640
+      - link " qwerty_2063 ":
+        - /url: category.php?cid=641
+      - link " fashion1 ":
+        - /url: category.php?cid=642
+      - link " Books ":
+        - /url: category.php?cid=643
+      - link " Health ":
+        - /url: category.php?cid=644
+      - link " fashion ":
+        - /url: category.php?cid=645
+      - link " fashion ":
+        - /url: category.php?cid=646
+      - link " Fashion3991 ":
+        - /url: category.php?cid=647
+      - link " Fashion1697 ":
+        - /url: category.php?cid=648
+      - link " Fashion4053 ":
+        - /url: category.php?cid=649
+      - link " Fashion3269 ":
+        - /url: category.php?cid=650
+      - link " Fashion3058 ":
+        - /url: category.php?cid=651
+      - link " Mobiles ":
+        - /url: category.php?cid=652
+      - link " Mobiles3010 ":
+        - /url: category.php?cid=653
+      - link " Health ":
+        - /url: category.php?cid=654
+      - link " Health ":
+        - /url: category.php?cid=655
+      - link " Health ":
+        - /url: category.php?cid=656
+      - link " Health ":
+        - /url: category.php?cid=657
+      - link " Health ":
+        - /url: category.php?cid=658
+      - link " Health ":
+        - /url: category.php?cid=659
+      - link " Health ":
+        - /url: category.php?cid=660
+      - link " Health ":
+        - /url: category.php?cid=661
+      - link " Health ":
+        - /url: category.php?cid=662
+      - link " Health ":
+        - /url: category.php?cid=663
+      - link " Fashion ":
+        - /url: category.php?cid=664
+      - link " Fashion4066 ":
+        - /url: category.php?cid=665
+      - link " Fashion_3281 ":
+        - /url: category.php?cid=666
+      - link " Fashion4125 ":
+        - /url: category.php?cid=667
+      - link " Fashion4688 ":
+        - /url: category.php?cid=668
+      - link " Fashion4944 ":
+        - /url: category.php?cid=669
+      - link " Fashion2143 ":
+        - /url: category.php?cid=670
+      - link " Fashion4634 ":
+        - /url: category.php?cid=671
+      - link " Fashion479 ":
+        - /url: category.php?cid=672
+      - link " Fashion475 ":
+        - /url: category.php?cid=673
+      - link " Fashion3775 ":
+        - /url: category.php?cid=674
+      - link " Fashion2755 ":
+        - /url: category.php?cid=675
+      - link " Fashion1521 ":
+        - /url: category.php?cid=676
+      - link " Fashion782 ":
+        - /url: category.php?cid=677
+      - link " fashion123 ":
+        - /url: category.php?cid=678
+      - link " shoes ":
+        - /url: category.php?cid=679
+      - link " shoes ":
+        - /url: category.php?cid=680
+      - link " Shoes_ ":
+        - /url: category.php?cid=681
+      - link " Fashion1313 ":
+        - /url: category.php?cid=682
+      - link " Electronics ":
+        - /url: category.php?cid=683
+      - link " Electronics ":
+        - /url: category.php?cid=684
+      - link " Electronics ":
+        - /url: category.php?cid=685
+      - link " Electronics ":
+        - /url: category.php?cid=686
+      - link " eceedc ":
+        - /url: category.php?cid=687
+      - link " Fashion_3420 ":
+        - /url: category.php?cid=688
+      - link " mobiles ":
+        - /url: category.php?cid=689
+      - link " Fashion_768 ":
+        - /url: category.php?cid=690
+      - link " Fashion_2234 ":
+        - /url: category.php?cid=691
+      - link " Fashion_1881 ":
+        - /url: category.php?cid=692
+      - link " Fashion_1649 ":
+        - /url: category.php?cid=693
+      - link " Fashion_2984 ":
+        - /url: category.php?cid=694
+      - link " Fashion_158 ":
+        - /url: category.php?cid=695
+      - link " Fashion_3658 ":
+        - /url: category.php?cid=696
+      - link " Fashion_670 ":
+        - /url: category.php?cid=697
+      - link " Fashion_4656 ":
+        - /url: category.php?cid=698
+      - link " Fashion_3340 ":
+        - /url: category.php?cid=699
+      - link " Fashion_1328 ":
+        - /url: category.php?cid=700
+      - link " Bag ":
+        - /url: category.php?cid=701
+      - link " Watches ":
+        - /url: category.php?cid=702
+      - link " Fashion Design ":
+        - /url: category.php?cid=703
+      - link " qwerty_240 ":
+        - /url: category.php?cid=704
+      - link " Toys ":
+        - /url: category.php?cid=705
+      - link " Toys ":
+        - /url: category.php?cid=706
+      - link " Toys ":
+        - /url: category.php?cid=707
+- text:   
+- heading "money back" [level=4]
+- heading "30 Day Money Back Guarantee." [level=6]
+- text: 
+- heading "free shipping" [level=4]
+- heading "free ship-on oder over Rs. 600.00" [level=6]
+- text: 
+- heading "Special Sale" [level=4]
+- heading "All items-sale up to 20% off" [level=6]
+- heading "Smart Phones" [level=3]
+- link:
+  - /url: product-details.php?pid=65
+  - img
+- heading "Pixel 9 Pro" [level=3]:
+  - link "Pixel 9 Pro":
+    - /url: product-details.php?pid=65
+- slider "rating"
+- text: Rs. 1 Rs.1
+- link "Add to Cart":
+  - /url: index.php?page=product&action=add&id=65
+- link:
+  - /url: product-details.php?pid=66
+  - img
+- heading "Pixel 9 Pro" [level=3]:
+  - link "Pixel 9 Pro":
+    - /url: product-details.php?pid=66
+- slider "rating"
+- text: Rs. 1 Rs.1
+- link "Add to Cart":
+  - /url: index.php?page=product&action=add&id=66
+- link:
+  - /url: product-details.php?pid=133
+  - img
+- heading "SliverAnklet" [level=3]:
+  - link "SliverAnklet":
+    - /url: product-details.php?pid=133
+- slider "rating"
+- text: Rs. 0 Rs.0
+- link "Add to Cart":
+  - /url: index.php?page=product&action=add&id=133
+- link:
+  - /url: product-details.php?pid=261
+  - img
+- heading "Demo" [level=3]:
+  - link "Demo":
+    - /url: product-details.php?pid=261
+- slider "rating"
+- text: Rs. 750 Rs.1000
+- link "Add to Cart":
+  - /url: index.php?page=product&action=add&id=261
+- link:
+  - /url: product-details.php?pid=279
+  - img
+- heading "Madhu" [level=3]:
+  - link "Madhu":
+    - /url: product-details.php?pid=279
+- slider "rating"
+- text: Rs. 750 Rs.1000
+- link "Add to Cart":
+  - /url: index.php?page=product&action=add&id=279
+- link:
+  - /url: product-details.php?pid=341
+  - img
+- heading "vivo39" [level=3]:
+  - link "vivo39":
+    - /url: product-details.php?pid=341
+- slider "rating"
+- text: Rs. 190000 Rs.200000
+- link "Add to Cart":
+  - /url: index.php?page=product&action=add&id=341
+- text:  
+- heading "Laptops" [level=3]
+- link:
+  - /url: product-details.php?pid=127
+  - img
+- heading "Bucket" [level=3]:
+  - link "Bucket":
+    - /url: product-details.php?pid=127
+- slider "rating"
+- text: Rs .0 Rs.0
+- link "Add to Cart":
+  - /url: index.php?page=product&action=add&id=127
+- contentinfo:
+  - link "Shopping":
+    - /url: index.php
+    - heading "Shopping" [level=3]
+  - paragraph: Nam libero tempore, cum soluta nobis est ses eligendi optio cumque cum soluta nobis est ses eligendi optio cumque.
+  - link "":
+    - /url: http://facebook.com/transvelo
+  - link "":
+    - /url: "#"
+  - link "":
+    - /url: "#"
+  - link "":
+    - /url: "#"
+  - link "":
+    - /url: "#"
+  - heading "opening time" [level=4]
+  - table:
+    - rowgroup:
+      - 'row "Monday-Friday: 08.00 To 18.00"':
+        - cell "Monday-Friday:"
+        - cell "08.00 To 18.00"
+      - 'row "Saturday: 09.00 To 20.00"':
+        - cell "Saturday:"
+        - cell "09.00 To 20.00"
+      - 'row "Sunday: 10.00 To 20.00"':
+        - cell "Sunday:"
+        - cell "10.00 To 20.00"
+  - heading "information" [level=4]
+  - list:
+    - listitem:
+      - text:  
+      - paragraph: New Delhi, Delhi
+    - listitem:
+      - text:  
+      - paragraph: (011) 000000000000 (011) 000000000000
+    - listitem:
+      - text:  
+      - link "info@phpgurukul.com":
+        - /url: "#"
+```
+
+# Test source
+
+```ts
+   1 |
+   2 | import { expect, test } from '@playwright/test';
+   3 | import { nextTick } from 'process';
+   4 | test("Handling WebTable", async ({page}) =>{
+>  5 |     await page.goto("http://49.249.28.218:8081/AppServer/Online_Shopping_Application/");
+     |                ^ Error: page.goto: Test timeout of 30000ms exceeded.
+   6 |     await page.getByRole('link', {name:"Admin Login"}).click();
+   7 |     await page.getByPlaceholder("Username").fill("admin");
+   8 |     await page.getByPlaceholder("Password").fill("Test@123");
+   9 |     await page.getByRole('button', {name:"Login"}).click();
+  10 |     await page.waitForTimeout(3000);
+  11 |     await page.getByRole('link', {name:'Manage Products '}).click();
+  12 |     // await page.getByLabel("Search: ").fill("seller");
+  13 |     // await page.keyboard.press("Enter");
+  14 |     await page.waitForTimeout(3000);
+  15 |     const rows = await page.locator("#DataTables_Table_0 tbody tr");
+  16 |         // const tdS = await page.locator("#DataTables_Table_0 tbody tr td").all();
+  17 |
+  18 |
+  19 |
+  20 |
+  21 |         let NextLink = await page.locator("//span[text()='Next']/parent::a");
+  22 |         // let isClickAble = true;
+  23 |         ;
+  24 |
+  25 |         // console.log(await pages.count());
+  26 |               //let status = await expect(NextLink).toBeEnabled();
+  27 |
+  28 |         for(let p=0; p<=20; p++) {
+  29 |             if(p>0) {
+  30 |                 await NextLink.click();
+  31 |
+  32 |             }
+  33 |
+  34 |             for(let i=0; i<await rows.count(); i++){
+  35 |                 const row = rows.nth(i);
+  36 |                 const tds = row.locator("td");
+  37 |                 for(let j=0; j<await tds.count(); j++) {
+  38 |                     console.log(await tds.nth(j).textContent());
+  39 |                 }
+  40 |
+  41 |             }
+  42 |         }
+  43 |
+  44 |     //     for(let p=0; p<=rows.length; p++) {
+  45 |             
+  46 |     // for(let r of rows) {
+  47 |     //     let txt = await r.locator("td").innerText();
+  48 |     //     console.log(txt);
+  49 |     // }
+  50 |
+  51 |     //     }
+  52 |
+  53 |
+  54 |
+  55 |
+  56 |     // console.log(Array.isArray(tdS));
+  57 |     
+  58 |
+  59 |
+  60 |     // for(let td of tdS) {
+  61 |     //     let txt = await td
+  62 |     // }
+  63 |
+  64 |     // console.log(Array.isArray(tdS));
+  65 | // console.log(await tdS.count());
+  66 |
+  67 |     // let matchedRow = rows.filter({
+  68 |         
+  69 |     //     has: page.locator("td"),
+  70 |     //     hasText:'seller'
+  71 |         
+  72 |         
+  73 |     // })
+  74 | //  await matchedRow.locator("//i[@class='icon-edit']/parent::a").click();
+  75 |
+  76 |     // await page.waitForTimeout(5000);
+  77 |
+  78 |    
+  79 | })
+```

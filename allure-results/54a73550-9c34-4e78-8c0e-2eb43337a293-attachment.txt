@@ -1,0 +1,5 @@
+1Smartphone$10.99
+2Laptop$19.99
+3Tablet $5.99
+4Smartwatch$7.99
+5Wireless Earbuds$8.99
